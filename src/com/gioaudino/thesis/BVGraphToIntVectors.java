@@ -9,13 +9,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Date;
 
-public class BVGraphToIntVectors extends BVGraphConverter{
-
-    long printedArcs = 0;
-    int printedNodes = 0;
-    Date start;
-    int nodes;
-    long arcs;
+public class BVGraphToIntVectors extends BVGraphConverter {
 
     public static void main(String[] args) {
         if (args.length < 1) {
